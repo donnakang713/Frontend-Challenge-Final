@@ -1,0 +1,182 @@
+@import "reset.css"
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 360px;
+	height: 640px;
+}
+
+.top {
+  margin: 0 auto;
+  background-color: #15214C;
+  position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+.android {
+  margin: 0 auto;
+}
+
+.info-bar {
+  margin: 0 auto;
+  height: 56px;
+  width: 360px;
+  background-color: #15214C;
+}
+
+.backarrow {
+  float: left;
+  margin-top: 14px;
+  margin-left: 16px;
+}
+
+.title h3 {
+float:left;
+font-weight:400;
+font-size: 1.8em;
+color: #ffffff;
+margin-top: 17px;
+margin-left: 24px;
+}
+
+.man-walking {
+  float: left;
+  margin-top: 16px;
+  margin-left: 18px;
+  margin-right: 6px;
+}
+
+.time-distance h3 {
+  float: right;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #ffffff;
+  margin-top: 21px;
+  margin-right: 16px;
+}
+
+.map {
+  margin: 0 auto;
+}
+
+.bus-list {
+  width: 100%;
+  color: #ffffff;
+  width: 360px
+}
+
+.list {
+  margin: 0 auto;
+  width: 360px;
+  height: 72px;
+  background-color: #15214C;
+  width: 100%;
+  display: inline-block;
+}
+
+.numberfirst {
+  color: #F5A038;
+  font-weight:400;
+  font-size: 3.0em;
+  float: left;
+  width: 15%;
+  padding-top: 23px;
+  padding-left: 16px;
+  padding-right:13px;
+
+}
+
+.number {
+  font-weight:400;
+  font-size: 3.0em;
+  float: left;
+  width: 15%;
+  padding-top: 23px;
+  padding-left: 16px;
+  padding-right: 13px;
+}
+
+.forward-arrow {
+  float: left;
+  padding-right: 7px;
+  padding-left: 10px;
+  padding-top: 8%;
+}
+
+.destination {
+  float: left;
+  font-size: 1.4em;
+  width: 35%;
+  padding-top: 28px;
+}
+
+.destinationfirst {
+  float: left;
+  font-size: 1.4em;
+  width: 45%;
+  padding-top: 28px;
+}
+
+.destinationsecond{
+  float: left;
+  font-size: 1.4em;
+  width: 30%;
+  padding-top: 20px;
+  line-height: 16px;
+}
+
+.timefirst {
+  padding-top: 18px;
+  padding-right: 16px;
+}
+
+.timefirst h3 {
+  font-size: 2.0em;
+  font-weight: 400;
+  padding-bottom: 2px;
+  float: right;
+}
+
+.timefirst h4 {
+  font-size: 1.2em;
+  font-weight: lighter;
+  float: right;
+}
+
+.time {
+  padding-top: 19px;
+  padding-right: 16px;
+}
+
+.time h3 {
+  font-size: 1.7em;
+  font-weight: 400;
+  padding-bottom: 2px;
+  float: right;
+}
+
+.time h4 {
+  font-size: 1.2em;
+  font-weight:lighter;
+  float: right;
+}
+
+.navbar {
+  position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: : 0;
+}
